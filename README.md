@@ -1,19 +1,21 @@
-# main
-
-## Project setup
+## Скачайте или склонируйте проект
 ```
-npm install
+Для скачивания нужно нажать на "Code" и всплывающем меню выбрать "Download ZIP"
 ```
 
-### Compiles and hot-reloads for development
+## Скачать все необходимое для запуска
+```
+Откройте скаченный проект в своем редакторе кода (например VS Code) и через него откройте консоль. В консоли
+нужно ввести команду "npm install" для скачивания всех необходимых пакетов.
+```
+
+## API ключ Dadata
+```
+Чтобы добавить свой ключ от Dadata, вам нужно создать файл ".env" в корне проекта. В этом файле необходимо
+ввести "VUE_APP_TOKEN=*******", где вместо звездочек указывается свой ключ.
+```
+
+### Запуск проекта
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
